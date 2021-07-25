@@ -1,15 +1,49 @@
 // @format:off
+
+/*
+    TommyBox supports JavaScript-style comments in PWA manifest JSON
+ */
+
 {
     "name":                 "Weather Forecast",
     "short_name":           "Weather",
-    "enable_fullscreen":    false,
+    "enable_fullscreen":    true,
+
+    /*
+        ISO 639 language code or RFC-5646 language tag
+     */
     "lang":                 "ru",
+
     "trayIcon":             true,
-    "window_menu":          "custom", // "custom", "native", "none" (default)
+
+    /*
+    	 "window_menu":
+
+         "custom";
+         "native";
+         "none" (default)
+     */
+    "window_menu":          "custom",
     "window_always_on_top": false,
+
+    /*
+        window size (optional)
+     */
     "window_size":          "640x280",
+
+    /*
+        window coordinates (optional)
+     */
     "window_x":             40,  // default is null
     "window_y":             250, // default is null
+
+    /*
+        window_buttons:
+        
+        "minimize";
+        "maximize";
+        "close"
+    */
     "window_buttons": [
         "minimize",
         "maximize",
@@ -38,7 +72,7 @@
     "theme_color":      "#3367D6",
     
     /*
-        display modes:
+        "display":
         
         "standalone" (default);
         "minimal_ui";
@@ -52,7 +86,7 @@
     "display": "standalone",
     
     /*
-        shortcuts define context menu
+        shortcuts represents context menu
      */
     "shortcuts": [
         {
@@ -80,7 +114,7 @@
            ]
         },
         {
-            "url": "separator:",
+            "url": "separator:"
         },
         {
            "name":        "Java Dialog",
@@ -107,7 +141,7 @@
             ]
         },
         {
-            "url": "separator:",
+            "url": "separator:"
         },
         {
            "name":        "Open in New &Window…",
@@ -125,7 +159,7 @@
             "name":        "Open in Browser",
             "short_name":  "Browser",
             "description": "Open this page in a web browser",
-            "url":         "open_in_new_window:",
+            "url":         "open_in_browser:",
             "icons": [
                 {
                     "src":   "/img/open_in_browser.png",
@@ -134,7 +168,7 @@
             ]
         },
         {
-            "url": "separator:",
+            "url": "separator:"
         },
         {
            "name":        "Full&screen\tF11",
@@ -143,13 +177,13 @@
            "url":         "fullscreen:",
            "icons": [
                {
-                   "src":   "/images/fullscreen.png",
+                   "src":   "/icons/fullscreen.png",
                    "sizes": "16x16"
                }
            ]
         },
         {
-            "url": "separator:",
+            "url": "separator:"
         },
         {
             "name":        "&Home",
@@ -158,7 +192,7 @@
             "url":         "home:",
             "icons": [
                 {
-                    "src":   "/images/home.png",
+                    "src":   "/icons/home.png",
                     "sizes": "16x16"
                 }
             ]
@@ -170,7 +204,7 @@
             "url":         "back:",
             "icons": [
                 {
-                    "src":   "/images/back.png",
+                    "src":   "/icons/back.png",
                     "sizes": "16x16"
                 }
             ]
@@ -182,13 +216,13 @@
             "url":         "forward:",
             "icons": [
                 {
-                    "src":   "/images/forward.png",
+                    "src":   "/icons/forward.png",
                     "sizes": "16x16"
                 }
             ]
         },
         {
-            "url": "separator:",
+            "url": "separator:"
         },
         {
             "name":        "&Reload",
@@ -197,27 +231,26 @@
             "url":         "reload:",
             "icons": [
                 {
-                    "src":   "/images/reload.png",
+                    "src":   "/icons/reload.png",
                     "sizes": "16x16"
                 }
             ]
         },
         {
-            "url": "separator:",
+            "url": "separator:"
         },
         {
             "name":        "&Quit",
             "short_name":  "Quit",
             "description": "Exit Application",
-            "url":         "quit:",
-            "icons": [
-                {
-                    "src":   "/images/reload.png",
-                    "sizes": "16x16"
-                }
-            ]
-        },
+            "url":         "quit:"
+        }
     ],
+
+    /*
+        I18N (not part of PWA standard)
+        Use ${KEY_NAME} notation to access key values
+     */
     "strings": {
         "en_US": {
             "france_weather_name":        "France Weather",
