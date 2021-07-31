@@ -5,8 +5,8 @@
  */
 
 {
-    "name":                 "Weather Forecast",
-    "short_name":           "Weather",
+    "name":                 "TommyBox Demo app",
+    "short_name":           "TommyBox Demo",
     "enable_fullscreen":    true,
 
     /*
@@ -29,7 +29,7 @@
     /*
         window size (optional)
      */
-    "window_size":          "640x280",
+    "window_size":          "1280x840",
 
     /*
         window coordinates (optional)
@@ -114,12 +114,24 @@
            ]
         },
         {
+           "name":        "Open example.com",
+           "short_name":  "example.com",
+           "description": "Open example.com website",
+           "url":          "open_in_browser:http://example.com",
+           "icons": [
+               {
+                   "src":   "/img/fr_weather.png",
+                   "sizes": "16x16"
+               }
+           ]
+        },
+        {
             "url": "separator:"
         },
         {
-           "name":        "Java Dialog",
+           "name":        "Call Java",
            "short_name":  "Java",
-           "description": "Open JOptionPane#showMessageDialog()",
+           "description": "Open JOptionPane#showMessageDialog() from Java",
            "url":         "java:javax.swing.JOptionPane.showMessageDialog(null, \"Hello, Java!\")",
            "icons": [
                {
@@ -129,7 +141,7 @@
            ]
         },
         {
-            "name":        "JavaScript Dialog",
+            "name":        "Call JavaScript",
             "short_name":  "JavaScript",
             "description": "Open JOptionPane#showMessageDialog() from JavaScript",
             "url":         "js:javax.swing.JOptionPane.showMessageDialog(null, 'Hello, JavaScript!')",
