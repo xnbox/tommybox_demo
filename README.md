@@ -5,7 +5,15 @@ Run demo app in TommyBox:
 
 ```text
 
-java -jar tb.jar --app app.zip
+java -jar tb.jar --app <app dir>
+
+```
+
+or:
+
+```text
+
+java -jar tb.jar --app <app ZIP file>
 
 ```
 
