@@ -35,7 +35,7 @@ E-Mail: xnarto@outlook.com
 	<target name="create_test_jar">
 		<delete file="${war}" />
 		<zip file="${war}">
-			<zipfileset prefix="" dir="${basedir}/public" />
+			<zipfileset prefix="" dir="${basedir}/app" />
 		</zip>
 	</target>
 </project>
