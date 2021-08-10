@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!--
-
 MIT License
 
-Copyright (c) 2020 xnarto team
+Copyright (c) 2021 xnbox team
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -23,16 +22,15 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-Home:   https://xnarto.github.io
-E-Mail: xnarto@outlook.com
-
+HOME:   https://xnbox.github.io
+E-Mail: xnbox.team@outlook.com
 -->
 
 <!--ANT 1.7 is required-->
-<project default="create_test_jar" name="Create xnarto test jar">
+<project default="create_demo_app" name="Create xnbox demo app">
 	<property name="war" value="${basedir}/RELEASE/app.zip" />
 
-	<target name="create_test_jar">
+	<target name="create_demo_app">
 		<delete file="${war}" />
 		<zip file="${war}">
 			<zipfileset prefix="" dir="${basedir}/app" />
