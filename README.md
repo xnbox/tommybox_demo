@@ -1,7 +1,7 @@
 # TommyBox Demo App
 
 Simplest TommyBox app is just standard HTML/JavaScript etc.<br><br>
-The easiest way to try demo app:
+<h2>The easiest way to try demo app</h2>
 
 <ol>
 	<li>Download the latest TommyBox jar: <a href="https://github.com/xnbox/tommybox/releases/download/v2.14.1/tb-2.14.1.jar">tb-2.14.1.jar</a></li>
@@ -12,7 +12,7 @@ The easiest way to try demo app:
 java -jar tb-2.14.1.jar --app https://github.com/xnbox/tommybox_demo/raw/main/RELEASE/app.zip
 ```
 <br>
-Embed demo app:
+<h2>Embed demo app</h2>
 
 <ol>
 	<li>Download the latest TommyBox jar: <a href="https://github.com/xnbox/tommybox/releases/download/v2.14.1/tb-2.14.1.jar">tb-2.14.1.jar</a></li>
