@@ -18,7 +18,7 @@ java -jar tb-2.14.1.jar --app https://github.com/xnbox/tommybox_demo/raw/main/RE
 	<li>Download the latest TommyBox jar: <a href="https://github.com/xnbox/tommybox/releases/download/v2.14.1/tb-2.14.1.jar">tb-2.14.1.jar</a></li>
 	<li>Download the demo app ZIP: <a href="https://github.com/xnbox/tommybox_demo/raw/main/RELEASE/app.zip">app.zip</a></li>
 	<li>Copy <code>app.zip</code> into the root directory of the <code>tb-2.14.1.jar</code> file</li>
-	<li>Run demo app:</li>
+	<li>Run embedded demo app:</li>
 </ol>
 
 ```text
