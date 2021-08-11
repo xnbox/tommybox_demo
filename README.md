@@ -11,7 +11,7 @@ Simplest TommyBox app is just standard HTML/JavaScript etc.<br><br>
 ```text
 java -jar tb-2.14.1.jar --app https://github.com/xnbox/tommybox_demo/raw/main/RELEASE/app.zip
 ```
-<br>
+
 <h2>Embed demo app:</h2>
 
 <ol>
