@@ -1,8 +1,7 @@
 # TommyBox Demo App
 
-TommyBox app is just standard HTML/JavaScript etc.: <a href="https://github.com/xnbox/tommybox_demo/tree/main/app">view sources</a>
-
-The easiest way to run demo app:
+Simplest TommyBox app is just standard HTML/JavaScript etc.<br><br>
+The easiest way to try demo app:
 
 <ol>
 	<li>Download the latest TommyBox jar: <a href="https://github.com/xnbox/tommybox/releases/download/v2.14.1/tb-2.14.1.jar">tb-2.14.1.jar</a></li>
@@ -12,6 +11,21 @@ The easiest way to run demo app:
 ```text
 java -jar tb-2.14.1.jar --app https://github.com/xnbox/tommybox_demo/raw/main/RELEASE/app.zip
 ```
+<br>
+Embed demo app:
 
+<ol>
+	<li>Download the latest TommyBox jar: <a href="https://github.com/xnbox/tommybox/releases/download/v2.14.1/tb-2.14.1.jar">tb-2.14.1.jar</a></li>
+	<li>Download the demo app ZIP: <a href="https://github.com/xnbox/tommybox_demo/raw/main/RELEASE/app.zip">app.zip</a></li>
+	<li>Copy the <code>app.zip</code> into the root directory of the <code>tb-2.14.1.jar</code></li>
+	<li>Rename <code>tb-2.14.1.jar</code> to <code>MyDemoApp.jar</code></li>
+	<li>Run <code>MyDemoApp.jar</code></li>
+</ol>
+
+```text
+java -jar MyDemoApp.jar
+```
+
+Explore the demo app <a href="https://github.com/xnbox/tommybox_demo/tree/main/app">sources</a>.<br>
 Please visit <a href="https://github.com/xnbox/tommybox">TommyBox</a> home page for more options.
 
