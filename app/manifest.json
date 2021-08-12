@@ -14,7 +14,7 @@
      */
     "lang":                 "ru",
 
-    "trayIcon":             true,
+    "tray_icon":             true,
 
     /*
     	 "window_menu":
