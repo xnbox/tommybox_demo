@@ -1,59 +1,19 @@
-// @format:off
-
-/*
-    TommyBox supports JavaScript-style comments in PWA manifest JSON
- */
-
 {
     "name":                 "TommyBox Demo app",
     "short_name":           "TommyBox Demo",
     "enable_fullscreen":    true,
-
-    /*
-        ISO 639 language code or RFC-5646 language tag
-     */
     "lang":                 "ru",
-
     "tray_icon":             true,
-
-    /*
-    	 "window_menu":
-
-         "custom";
-         "native";
-         "none" (default)
-     */
     "window_menu":          "custom",
     "window_always_on_top": false,
-
-    /*
-        window size (optional)
-     */
-    "window_size":          "1280x840",
-
-    /*
-        window coordinates (optional)
-     */
-    "window_x":             40,  // default is null
-    "window_y":             250, // default is null
-
-    /*
-        window_buttons:
-        
-        "minimize";
-        "maximize";
-        "close"
-    */
+    "window_size":          "640x480",
+    "window_x":             40,
+    "window_y":             250,
     "window_buttons": [
         "minimize",
         "maximize",
         "close"
     ],
-    
-    /*
-         smallest icon used as window icon
-         largest icon used as splash screen (optional)
-     */
     "icons": [
         {
             "src":   "/img/weather-icon.png",
@@ -70,24 +30,7 @@
     "scope":            "/weather_app",
     "background_color": "#3367D6",
     "theme_color":      "#3367D6",
-    
-    /*
-        "display":
-        
-        "standalone" (default);
-        "minimal_ui";
-        "browser";
-        "fullscreen";
-        "minimized_window";
-        "maximized_window"; 
-        "desktop_area";
-        "headless"
-     */
     "display": "standalone",
-    
-    /*
-        shortcuts represents context menu
-     */
     "shortcuts": [
         {
            "name":        "USA Weather",
@@ -258,11 +201,6 @@
             "url":         "quit:"
         }
     ],
-
-    /*
-        I18N (not part of PWA standard)
-        Use ${KEY_NAME} notation to access key values
-     */
     "strings": {
         "en_US": {
             "france_weather_name":        "France Weather",

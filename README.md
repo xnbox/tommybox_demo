@@ -1,5 +1,7 @@
 # TommyBox Demo App
 
+![TommyBox Demo App](screenshot.png)
+
 Simplest TommyBox app is just standard HTML/JavaScript etc.<br><br>
 <h2>The easiest way to try demo app:</h2>
 
