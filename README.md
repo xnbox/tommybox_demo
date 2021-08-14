@@ -30,7 +30,7 @@ java -jar tb-2.14.1.jar
 <h2>Get more:</h2>
 
 <ul>
-	<li>Explore the demo app <a href="https://github.com/xnbox/tommybox_demo/tree/main/app">sources</a><br></li>
+	<li>Explore the demo app <a href="https://github.com/xnbox/tommybox_demo/tree/main/app">sources</a>.</li>
 	<li>Please visit <a href="https://github.com/xnbox/tommybox">TommyBox</a> home page for more options</li>
 </ul>
 
