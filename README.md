@@ -3,7 +3,7 @@
 ![TommyBox Demo App](screenshot.png)
 
 Simplest TommyBox app is just standard HTML/JavaScript etc.<br><br>
-<h2>The easiest way to try demo app:</h2>
+<h2>The easiest way to try TommyBox:</h2>
 
 <ol>
 	<li>Download the latest TommyBox jar: <a href="https://github.com/xnbox/tommybox/releases/download/v2.14.1/tb-2.14.1.jar">tb-2.14.1.jar</a></li>
