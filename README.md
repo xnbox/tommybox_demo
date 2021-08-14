@@ -2,7 +2,7 @@
 
 ![TommyBox Demo App](screenshot.png)
 
-Simplest TommyBox app is just standard HTML/JavaScript etc.<br><br>
+Simplest <a href="https://github.com/xnbox/tommybox">TommyBox</a> app is just standard HTML/JavaScript etc.<br><br>
 <h2>The easiest way to try TommyBox:</h2>
 
 <ol>
