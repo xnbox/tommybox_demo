@@ -1,4 +1,4 @@
-# TommyBox Demo App
+# 🍥 TommyBox Demo App
 
 ![TommyBox Demo App](screenshot.png)
 
